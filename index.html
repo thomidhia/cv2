@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MASJIDKU</title>
+</head>
+
+<body bgcolor=lightblue>
+<center>
+  <h1>MASJIDKU</h1>
+  <p>Menjalin ukuwah, menjalin kebersamaan</p>
+
+<hr>
+<hr>
+  <table >
+    <tr>
+      <td><h6>WIFI NAME: </h6></td>
+      <td><input type="text" id="eWifiName"></input></td>
+    </tr>
+    <tr>
+      <td><h6>WIFI PASSWORD: </h6></td>
+      <td><input type="text" id="eWifiPass"></input></td>
+    </tr>
+  </table>
+  <button id=buttonConnect2 onclick="resetElement()">Connect</button>
+  <p>*mohon perhatikan besar kecil WIFI NAME dan WIFI PASSWORD</p>
+</center>
+<script type="text/javascript">
+function resetElement(){
+document.getElementById("buttonConnect").style.visibility = "visible";
+}
+function changeVisibility(){
+document.getElementById("buttonConnect").style.visibility = "hidden";
+}
+</script>
+
+</html>
